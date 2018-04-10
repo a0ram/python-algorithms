@@ -1,5 +1,6 @@
 # Name: Quick sort
-# Running Time: O(nlogn)
+# Running Time: O(nlogn), O(n^2)
+# Worst case: When the array is already sorted
 
 def quicksort(array):
     # base case, already "sorted"

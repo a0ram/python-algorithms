@@ -1,6 +1,9 @@
+# Name: Bread First Search
+# Running Time: O(V+E)
+
 from collections import deque
 
-# We say a person is a saller if its name ends with a character 'm'
+# We say a person is a seller if its name ends with a character 'm'
 def person_is_seller(name):
     return name[-1] == 'm'
 

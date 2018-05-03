@@ -12,7 +12,7 @@ def find_smallest(array):
     return smallest_index
 
 def selection_sort(array):
-    """Sorts an arrayay by finding its smallest or biggest element"""
+    """Sorts an array by finding its smallest or biggest element"""
     new_array = []
     for i in range(len(array)):
         smallest = find_smallest(array)
